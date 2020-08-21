@@ -50,7 +50,7 @@ models:
             label: Params Logo
             fields:
               - type: image
-                name: standard
+                name: desktop
                 label: Logo Desktop
                 description: the path of the desktop logo image
                 required: true
@@ -61,6 +61,9 @@ models:
               - type: string
                 name: alt
                 label: Logo Alt Text
+              - type: string
+                name: desktop_height
+                label: Desktop Logo height in pixels
           - type: object
             name: homepage_meta_tags
             label: Homepage Metatags
@@ -92,6 +95,13 @@ models:
               - type: string
                 name: meta_twitter_creator
                 label: meta_twitter_creator
+          - type: object
+            name: header
+            label: Header
+            fields:
+              - type: string
+                name: github_link
+                label: Github Link
       - type: site_menus
         name: menu
         label: Menus
@@ -215,9 +225,6 @@ models:
       - type: date
         name: date
         label: Date
-      - type: image
-        name: image
-        label: Image
       - type: boolean
         name: draft
         label: Draft
@@ -280,6 +287,9 @@ models:
       - type: number
         name: weight
         label: Weight
+      - type: boolean
+        name: promoted
+        label: Promoted
   teams:
     type: page
     label: Team Overview

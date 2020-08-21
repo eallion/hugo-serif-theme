@@ -1,8 +1,8 @@
 ---
 title: 'Services'
-intro_image: images/undraw_selection_92i4.svg
-intro_image_absolute: false
-intro_image_hide_on_mobile: true
+intro_image: "images/pixeltrue-chatting-using-apps-1.svg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: false
 ---
 
 # Services that grow with your business
